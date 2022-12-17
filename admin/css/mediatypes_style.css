@@ -1,0 +1,78 @@
+#mediatypes-form input[type='submit'] {
+	background-color: mediumpurple;
+	border-color: mediumpurple;
+	padding: 5px 20px;
+}
+
+#mediatypes-form input[type='submit']:hover {
+	background-color: rebeccapurple;
+}
+
+.mediatypes_display_btn_wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
+}
+
+.mediatypes_btn input[type='checkbox'] {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+.mediatypes_btn {
+	z-index: 999;
+	position: relative;
+	text-align: center;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	margin: 0 2em 2em 2em;
+	transition: ease 0.2s;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.mediatypes_btn:hover {
+	background-color: #658d6e;
+}
+
+.mediatypes_btn.active {
+	background-color: seagreen;
+	color: #FFFFFF;
+}
+
+.mediatypes-settings-page .welcome-message {
+	background-color: mediumpurple;
+	color: white;
+	padding: 50px;
+	border-radius: 5px;
+}
+
+.mediatypes-settings-page .rating-message {
+	background-color: mediumpurple;
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.donation-link-list {
+	list-style-type: none;
+}
+
+.donation-link-list li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.donation-link-list li a:hover {
+	color: #00a32a;
+}
+
+.donation-link-list li a {
+	text-decoration: none;
+	font-size: 1.2em;
+}
